@@ -43,4 +43,6 @@ packer.startup(function(use)
   use 'ibhagwan/fzf-lua'
 
   use 'lambdalisue/fern.vim'
+
+  use "olimorris/onedarkpro.nvim"
 end)
