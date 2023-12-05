@@ -9,7 +9,7 @@ vim.cmd [[packadd packer.nvim]]
 packer.startup(function(use)
   use 'wbthomason/packer.nvim'
 
-  -- colorscheme 
+  -- colorscheme
   use 'bluz71/vim-nightfly-colors'
 
   use 'nvim-lua/plenary.nvim'
@@ -22,6 +22,11 @@ packer.startup(function(use)
   use 'hrsh7th/nvim-cmp'
   use 'williamboman/mason.nvim'
   use 'williamboman/mason-lspconfig.nvim'
+
+  use 'L3MON4D3/LuaSnip'
+
+  use 'nvim-telescope/telescope.nvim'
+  use 'nvim-telescope/telescope-file-browser.nvim'
 
   use {
     'nvim-treesitter/nvim-treesitter',
@@ -39,10 +44,6 @@ packer.startup(function(use)
   use 'dinhhuy258/git.nvim'
 
   use 'fatih/vim-go'
-
-  use 'ibhagwan/fzf-lua'
-
-  use 'lambdalisue/fern.vim'
 
   use "olimorris/onedarkpro.nvim"
 end)
