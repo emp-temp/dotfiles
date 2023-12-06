@@ -22,6 +22,7 @@ packer.startup(function(use)
   use 'hrsh7th/nvim-cmp'
   use 'williamboman/mason.nvim'
   use 'williamboman/mason-lspconfig.nvim'
+  use 'windwp/nvim-autopairs'
 
   use 'L3MON4D3/LuaSnip'
 
@@ -46,4 +47,5 @@ packer.startup(function(use)
   use 'fatih/vim-go'
 
   use "olimorris/onedarkpro.nvim"
+  use 'voldikss/vim-floaterm'
 end)
