@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/Users/lara/.cache/nvim/packer_hererocks/2.1.1696795921/share/lua/5.1/?.lua;/Users/lara/.cache/nvim/packer_hererocks/2.1.1696795921/share/lua/5.1/?/init.lua;/Users/lara/.cache/nvim/packer_hererocks/2.1.1696795921/lib/luarocks/rocks-5.1/?.lua;/Users/lara/.cache/nvim/packer_hererocks/2.1.1696795921/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/Users/lara/.cache/nvim/packer_hererocks/2.1.1696795921/lib/lua/5.1/?.so"
+local package_path_str = "/Users/lara/.cache/nvim/packer_hererocks/2.1.1700008891/share/lua/5.1/?.lua;/Users/lara/.cache/nvim/packer_hererocks/2.1.1700008891/share/lua/5.1/?/init.lua;/Users/lara/.cache/nvim/packer_hererocks/2.1.1700008891/lib/luarocks/rocks-5.1/?.lua;/Users/lara/.cache/nvim/packer_hererocks/2.1.1700008891/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/lara/.cache/nvim/packer_hererocks/2.1.1700008891/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/Users/lara/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
+  ["dracula.nvim"] = {
+    loaded = true,
+    path = "/Users/lara/.local/share/nvim/site/pack/packer/start/dracula.nvim",
+    url = "https://github.com/Mofiqul/dracula.nvim"
+  },
   ["git.nvim"] = {
     loaded = true,
     path = "/Users/lara/.local/share/nvim/site/pack/packer/start/git.nvim",
@@ -128,6 +133,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/lara/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "/Users/lara/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -154,11 +164,6 @@ _G.packer_plugins = {
     path = "/Users/lara/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
-  ["onedarkpro.nvim"] = {
-    loaded = true,
-    path = "/Users/lara/.local/share/nvim/site/pack/packer/start/onedarkpro.nvim",
-    url = "https://github.com/olimorris/onedarkpro.nvim"
-  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/lara/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -178,6 +183,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/lara/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-floaterm"] = {
+    loaded = true,
+    path = "/Users/lara/.local/share/nvim/site/pack/packer/start/vim-floaterm",
+    url = "https://github.com/voldikss/vim-floaterm"
   },
   ["vim-go"] = {
     loaded = true,

@@ -46,6 +46,8 @@ packer.startup(function(use)
 
   use 'fatih/vim-go'
 
-  use "olimorris/onedarkpro.nvim"
+  -- use "olimorris/onedarkpro.nvim"
   use 'voldikss/vim-floaterm'
+
+  use 'Mofiqul/dracula.nvim'
 end)
