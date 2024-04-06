@@ -1,0 +1,9 @@
+theme = "github_dark_high_contrast"
+
+[editor]
+true-color = true
+auto-format = true
+
+[editor.lsp]
+display-messages = true
+display-inlay-hints = true
