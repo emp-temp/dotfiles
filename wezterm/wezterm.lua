@@ -6,6 +6,8 @@ if wezterm.config_builder then
   config = wezterm.config_builder()
 end
 
+config.color_scheme = 'Gruvbox Dark (Gogh)'
+
 config.font_size = 14
 
 config.keys = {
@@ -66,4 +68,3 @@ for i = 1, 8 do
 end
 
 return config
-
