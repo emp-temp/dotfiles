@@ -1,9 +1,3 @@
-theme = "gruvbox"
-
-[editor]
-true-color = true
-auto-format = true
-
-[editor.lsp]
-display-messages = true
-display-inlay-hints = true
+theme = "base16_transparent"
+# theme = "solarized_dark"
+# theme = "boo_berry"

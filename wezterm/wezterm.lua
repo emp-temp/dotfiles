@@ -6,9 +6,20 @@ if wezterm.config_builder then
   config = wezterm.config_builder()
 end
 
-config.color_scheme = 'Gruvbox Dark (Gogh)'
+-- config.color_scheme = 'Solarized Dark (Gogh)'
+-- config.color_scheme = 'Sakura'
+-- config.color_scheme = 'matrix'
+-- config.color_scheme = 'Matrix (terminal.sexy)'
+-- config.color_scheme = "BlueBerryPie"
+-- config.color_scheme = 'hardhacker'
+-- config.color_scheme = 'cyberpunk'
+config.color_scheme = 'Dark Violet (base16)'
 
-config.font_size = 14
+config.window_background_opacity = 0.9
+
+config.font = wezterm.font('JetBrains Mono NF', { weight = 'Regular', italic = false })
+
+config.font_size = 12
 
 config.keys = {
   {
